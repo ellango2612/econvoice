@@ -1,0 +1,31 @@
+{
+  "status": "PASS",
+  "n": 1200,
+  "passed": [
+    "Range check: q3_financial_stress",
+    "Range check: q4_econ_confidence",
+    "Range check: q1_support_binary",
+    "Confidence-stress correlation negative (\u03c1=-0.149)",
+    "MoE \u00b13.4% meets target \u00b14%"
+  ],
+  "warnings": [
+    "Elevated missingness: income = 7.5%",
+    "Stress-support correlation unexpectedly low (r=-0.120)",
+    "DEFF=1.63 elevated",
+    "Calibration gap: age=18-34 (0.304 vs 0.280)",
+    "Calibration gap: age=35-49 (0.293 vs 0.270)",
+    "Calibration gap: age=50-64 (0.259 vs 0.250)",
+    "Calibration gap: age=65+ (0.143 vs 0.200)",
+    "Calibration gap: educ=No college (0.353 vs 0.380)",
+    "Calibration gap: educ=Bachelor+ (0.369 vs 0.340)",
+    "Calibration gap: region=Northeast (0.174 vs 0.180)"
+  ],
+  "errors": [],
+  "metrics": {
+    "deff": 1.6324,
+    "eff_n": 735.1,
+    "moe_95": 0.0337,
+    "target_moe": 0.04,
+    "stress_support_r": -0.1195
+  }
+}

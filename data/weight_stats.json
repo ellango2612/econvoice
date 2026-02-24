@@ -1,0 +1,20 @@
+{
+  "n": 1200,
+  "iters": 7,
+  "n_trimmed": 100,
+  "trim_range": [
+    0.2907,
+    2.9126
+  ],
+  "deff": 1.6324,
+  "eff_n": 735.1,
+  "weight_min": 0.3157,
+  "weight_max": 3.1629,
+  "weight_std": 0.7953,
+  "support": {
+    "unweighted": 0.3333,
+    "weighted": 0.3196,
+    "true_pop": 0.3491,
+    "moe_95": 0.0337
+  }
+}

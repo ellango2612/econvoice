@@ -1,0 +1,23 @@
+{
+  "age": {
+    "18-34": 0.28,
+    "35-49": 0.27,
+    "50-64": 0.25,
+    "65+": 0.2
+  },
+  "gender": {
+    "Woman": 0.51,
+    "Man": 0.49
+  },
+  "educ": {
+    "No college": 0.38,
+    "Some college": 0.28,
+    "Bachelor+": 0.34
+  },
+  "region": {
+    "Northeast": 0.18,
+    "Midwest": 0.21,
+    "South": 0.38,
+    "West": 0.23
+  }
+}

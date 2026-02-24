@@ -1,0 +1,155 @@
+{
+  "metrics": {
+    "logit": {
+      "auc": 0.6158,
+      "brier": 0.2135
+    },
+    "rf": {
+      "auc": 0.6416,
+      "brier": 0.2131
+    },
+    "ensemble": {
+      "auc": 0.6285,
+      "brier": 0.2125
+    }
+  },
+  "feature_importance": [
+    {
+      "feature": "financial_stress",
+      "importance": 0.18194336282700713
+    },
+    {
+      "feature": "age_50_64",
+      "importance": 0.10733105565861822
+    },
+    {
+      "feature": "income_high",
+      "importance": 0.10684293350361913
+    },
+    {
+      "feature": "econ_confidence",
+      "importance": 0.0968260580141181
+    },
+    {
+      "feature": "educ_some_coll",
+      "importance": 0.08289629648231779
+    },
+    {
+      "feature": "age_35_49",
+      "importance": 0.060966749482473125
+    },
+    {
+      "feature": "region_south",
+      "importance": 0.05440568093032289
+    },
+    {
+      "feature": "gender_man",
+      "importance": 0.05368552598458274
+    },
+    {
+      "feature": "region_midwest",
+      "importance": 0.04794941468823988
+    },
+    {
+      "feature": "educ_bach_plus",
+      "importance": 0.043381405277016886
+    },
+    {
+      "feature": "region_west",
+      "importance": 0.04323899878697404
+    },
+    {
+      "feature": "income_mid",
+      "importance": 0.040594123194743266
+    },
+    {
+      "feature": "worry_wages",
+      "importance": 0.035694713451105115
+    },
+    {
+      "feature": "worry_jobs",
+      "importance": 0.030582306203127393
+    },
+    {
+      "feature": "age_65plus",
+      "importance": 0.013661375515734379
+    }
+  ],
+  "logit_coefs": [
+    {
+      "feature": "educ_some_coll",
+      "coef": 0.11895861293331816,
+      "odds_ratio": 1.1263233021060965
+    },
+    {
+      "feature": "worry_jobs",
+      "coef": 0.05305594049941115,
+      "odds_ratio": 1.0544886320901627
+    },
+    {
+      "feature": "econ_confidence",
+      "coef": 0.03893768075256502,
+      "odds_ratio": 1.039705687955142
+    },
+    {
+      "feature": "educ_bach_plus",
+      "coef": 0.02781839263926445,
+      "odds_ratio": 1.028208937153238
+    },
+    {
+      "feature": "age_35_49",
+      "coef": 0.02045997607638465,
+      "odds_ratio": 1.0206707161788884
+    },
+    {
+      "feature": "gender_man",
+      "coef": -0.01087400053063359,
+      "odds_ratio": 0.9891849076970899
+    },
+    {
+      "feature": "region_midwest",
+      "coef": -0.024845231482589072,
+      "odds_ratio": 0.9754608709789786
+    },
+    {
+      "feature": "worry_wages",
+      "coef": -0.042340538176604325,
+      "odds_ratio": 0.958543304397763
+    },
+    {
+      "feature": "age_65plus",
+      "coef": -0.054877628269988744,
+      "odds_ratio": 0.9466009780654899
+    },
+    {
+      "feature": "region_south",
+      "coef": -0.1237689849679235,
+      "odds_ratio": 0.8835839384789268
+    },
+    {
+      "feature": "region_west",
+      "coef": -0.13450589223399292,
+      "odds_ratio": 0.8741477281784388
+    },
+    {
+      "feature": "income_mid",
+      "coef": -0.16322187473196842,
+      "odds_ratio": 0.8494027065078376
+    },
+    {
+      "feature": "age_50_64",
+      "coef": -0.16424273875885984,
+      "odds_ratio": 0.8485360242980335
+    },
+    {
+      "feature": "financial_stress",
+      "coef": -0.23900913766343754,
+      "odds_ratio": 0.7874076872733803
+    },
+    {
+      "feature": "income_high",
+      "coef": -0.257856048751053,
+      "odds_ratio": 0.772706456160749
+    }
+  ]
+}
